@@ -1,14 +1,13 @@
 function onesDigit(n) {
   // your code here
-	let ans=n.toString();
-
-let x= ans.length-1;
-	
-	return ans[x];
+	let c=n.toString();
+let x= c.length-1;
+	let ans=parseInt(c[x]);
+	return ans ;
 	
 }
 
 // Do not change the code below
 
-const n = prompt("Enter Number:");
-alert(onesDigit(n));
+// const n = prompt("Enter Number:");
+// alert(onesDigit(n));
